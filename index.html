@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <h1>DYNAMİC BOX</h1>
+    <div class="container">
+        <div class="sol">
+            <table callpadding="10px" cellspacing="5px">
+
+                <tr>
+                    <td>Div Genişliyi</td>
+                    <td><input type="text" id="genişlik"></td>
+                </tr>
+
+                <tr>
+                    <td>Div Yüksəkliyi</td>
+                    <td><input type="text" id="yüksəklik"></td>
+                </tr>
+
+                <tr>
+                    <td>Div Rəngi</td>
+                    <td>
+                        <select name="" id="arxa_fon_rəngi">
+                            <option value="red">Qırmızı</option>
+                            <option value="blue">Mavi</option>
+                            <option value="black">Qara</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Çərçivə Qalınlığı</td>
+                    <td>
+                        <select name="" id="qalınlığ">
+                            <option value="1px">1px</option>
+                            <option value="3px">3px</option>
+                            <option value="5px">5px</option>
+                            <option value="10px">10px</option>
+                            <option value="15px">15px</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Çərçivə Tipi</td>
+                    <td>
+                        <select name="" id="çərçivə_tip">
+                            <option value="solid">Düz</option>
+                            <option value="dotted">Nöqtəli</option>
+                            <option value="dashed">Qırığ xətt</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Çərçivə Tipi</td>
+                    <td>
+                        <select name="" id="çərçivə_rəng">
+                            <option value="red">Qırmızı</option>
+                            <option value="blue">Mavi</option>
+                            <option value="black">Qara</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Margin Dəyəri</td>
+                    <td><input type="text" id="kənar_boşluğ"></td>
+                </tr>
+
+                <tr>
+                    <td>Padding Dəyəri</td>
+                    <td><input type="text" id="iç_boşluğ"></td>
+                </tr>
+
+                <tr>
+                    <td>Döndürmə Dəyəri</td>
+                    <td><input type="text" id="rotate"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <button type="submit" id="yarat">Göndər</button>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+        <div class="sağ" style="width: 500px; height: 500px;">Yaradılmış Div</div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

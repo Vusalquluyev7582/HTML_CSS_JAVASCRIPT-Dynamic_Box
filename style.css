@@ -1,0 +1,57 @@
+body {
+    background-color: burlywood;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    width: 800px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.sol {
+    width: 400px;
+    color: purple;
+    margin: 0 auto;
+    /* text-shadow: 2px 2px 5px black; */
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.sol input,
+select {
+    width: 200px;
+    height: 30px;
+    font-size: 14px;
+    font-family: "Lucida Sans";
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    margin-left: 100px;
+    background-color: burlywood;
+    font-size: 18px;
+    font-family: "Lucida Sans";
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px solid purple;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: coral;
+}
+
+.sağ {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
